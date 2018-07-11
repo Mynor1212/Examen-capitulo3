@@ -1,0 +1,8 @@
+body{
+  background-image: url("http://www.tuentiguan.es/wp-content/uploads/2014/07/gastronomia.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.row{
+  background-color: #FF5733;
+  opacity:0.9;

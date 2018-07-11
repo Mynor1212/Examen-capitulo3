@@ -1,0 +1,105 @@
+/* General */
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #291701;
+	background-color: #45433A;
+}
+body h1{
+	color: white;
+}
+a {
+	color: #291701;
+	font-weight: bold;
+}
+
+/* Header */
+header {
+	background-color: #A7C812;
+	padding-top: 15px;
+}
+header .col-md-7{
+	font-size: 35px;
+}
+.social-header {
+	margin-top: 12px;
+}
+	.social-header a {
+		color: #fff;
+	}
+
+		.social-header a .fa-inverse {
+			color: #2a1000;
+		}
+
+.menu-bar {
+	background-color: #86897B;
+	margin-top: 20px;
+}
+	.menu-bar a {
+		color: #2a1000;
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.menu-bar a:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+
+.menu-list {
+	padding: 12px 0;
+	margin-bottom: 0;
+}
+	.menu-list > li:not(:last-child) {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+}
+ .menu-list list-inline-item{
+	 padding: 0;
+ }
+
+section{
+	color: white;
+	margin-top: 50px;
+}
+#post img{
+	width: 100%;
+	max-width: 300px;
+	float: right;
+}
+#post2{
+	padding-top: 50px;
+}
+#post2 img{
+	width: 100%;
+	max-width: 300px;
+	float: left;
+}
+.comentario{
+	padding-top: 20px;
+}
+.comentario2{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.list-group{
+	color: black;
+	width: 100%;
+}
+/* Footer */
+footer {
+	background-color: #86897B;
+	font-size: 12px;
+	padding: 10px 0;
+}
+
+	footer ul {
+		margin-bottom: 0;
+	}
+
+	footer a:hover {
+		color: #fff;
+		text-decoration: none;
+	}
